@@ -37,6 +37,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F227C8627397306007D9484 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C91B6B95216BA3D600385D71 /* Model.swift */,
+				C91B6B84216BA24700385D71 /* ViewController.swift */,
+				C91B6B86216BA24700385D71 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		C91B6B76216BA24700385D71 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +66,9 @@
 		C91B6B81216BA24700385D71 /* ColorUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				C91B6B82216BA24700385D71 /* AppDelegate.swift */,
+				2F227C8627397306007D9484 /* App */,
 				C91B6B94216BA25800385D71 /* Supporting files */,
-				C91B6B95216BA3D600385D71 /* Model.swift */,
-				C91B6B86216BA24700385D71 /* Main.storyboard */,
-				C91B6B84216BA24700385D71 /* ViewController.swift */,
 			);
 			path = ColorUserDefaults;
 			sourceTree = "<group>";
@@ -67,7 +76,6 @@
 		C91B6B94216BA25800385D71 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				C91B6B82216BA24700385D71 /* AppDelegate.swift */,
 				C91B6B89216BA24900385D71 /* Assets.xcassets */,
 				C91B6B8B216BA24900385D71 /* LaunchScreen.storyboard */,
 				C91B6B8E216BA24900385D71 /* Info.plist */,

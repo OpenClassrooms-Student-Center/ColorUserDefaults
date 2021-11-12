@@ -8,11 +8,17 @@
 
 import Foundation
 
-class Color {
-    struct Keys {
+final class Color {
+
+    // MARK: - Private
+
+    enum Keys {
         static let colorKey = "colorKey"
     }
-    static var selected: String {
+
+    // MARK: - Public
+
+    var selected: String {
         get {
             return UserDefaults.standard.string(forKey: Keys.colorKey) ?? "Rouge"
         }
